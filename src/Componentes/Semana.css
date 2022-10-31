@@ -1,0 +1,11 @@
+.diariamente{
+    padding: 0 10% 0 10%;
+    height: 30vh;
+    width: 100%;
+}
+.temperatura-semana{
+    font-size: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
