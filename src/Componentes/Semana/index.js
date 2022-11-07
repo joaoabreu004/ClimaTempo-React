@@ -1,5 +1,5 @@
 import './Semana.css';
-import Card from "./Card";
+import Card from "../Card";
 
 function Semana(){
     const previsao = [{dia:'Seg', temp:'30', desc:'Ensolarado'},
@@ -17,7 +17,8 @@ function Semana(){
                             <Card 
                                 titulo={item.dia} 
                                 temperatura={item.temp} 
-                                clima={item.desc}>
+                                clima={item.desc}
+                                key={item.dia}>
                             </Card>
                         );
                     })
